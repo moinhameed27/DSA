@@ -1,4 +1,4 @@
-// Coding Ninjas : https://www.codingninjas.com/codestudio/problems/remove-duplicates-from-sorted-array_1102307?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
+Coding Ninjas : https://www.codingninjas.com/codestudio/problems/remove-duplicates-from-sorted-array_1102307?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
 
 int removeDuplicates(vector<int> &arr, int n)
 {
@@ -11,9 +11,9 @@ int removeDuplicates(vector<int> &arr, int n)
     return n - duplicates;
 }
 
-// ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// LeetCode : https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+LeetCode : https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 
 class Solution
 {
