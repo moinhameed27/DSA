@@ -11,6 +11,8 @@ int removeDuplicates(vector<int> &arr, int n)
     return n - duplicates;
 }
 
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 // LeetCode : https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 
 class Solution
