@@ -1,4 +1,4 @@
-// Coding Ninjas : https://www.codingninjas.com/codestudio/problems/ninja-and-the-sorted-check_6581957?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
+Coding Ninjas : https://www.codingninjas.com/codestudio/problems/ninja-and-the-sorted-check_6581957?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
 
 int isSorted(int n, vector<int> a)
 {
