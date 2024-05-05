@@ -37,3 +37,40 @@ vector<int> getSecondOrderElements(int n, vector<int> a)
     }
     return {secondMax, secondMin};
 }
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+/*
+Dry Run:
+
+a[5] = {1, 2, 3, 4, 5}
+
+--> i = 0;
+IF :    secondMax = max = INT_MIN
+        max = a[0] = 1
+
+IF :    secondMin = min = INT_MAX
+        min = a[0] = 1;
+
+--> i = 1;
+IF :    secondMax = max = 1
+        max = a[1] = 2
+
+ELIF :  secondMin = a[1] = 1;
+
+--> i = 2;
+IF :    secondMax = max = 2
+        max = a[2] = 3
+
+--> i = 3;
+IF :    secondMax = max = 3
+        max = a[2] = 4
+
+--> i = 4;
+IF :    secondMax = max = 4
+        max = a[2] = 5
+
+
+Second max = 4;
+Second min = 2;
+
+*/
