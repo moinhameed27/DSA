@@ -1,4 +1,4 @@
-Coding Ninjas : https : // www.codingninjas.com/codestudio/problems/ninja-and-the-zero-s_6581958?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
+Coding Ninjas : https://www.codingninjas.com/codestudio/problems/ninja-and-the-zero-s_6581958?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
 
 vector<int> moveZeros(int n, vector<int> a)
 {
@@ -85,7 +85,7 @@ nums[2] = nums[4]
 nums[5] = {1, 2, 12, 3, 12}
 j = 3
 
--------------------
+---------------------------
 --> j = 3
 nums[3] = 0
 nums[5] = {1, 2, 12, 0, 12}
