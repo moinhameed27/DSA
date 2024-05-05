@@ -1,4 +1,4 @@
-// Coding Ninjas : https://www.codingninjas.com/codestudio/problems/ninja-and-the-second-order-elements_6581960?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
+Coding Ninjas : https://www.codingninjas.com/codestudio/problems/ninja-and-the-second-order-elements_6581960?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
 
 // Way - I (Sort and Get the Second and Second Last Element)
 vector<int> getSecondOrderElements(int n, vector<int> a)
