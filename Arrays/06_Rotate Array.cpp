@@ -62,7 +62,7 @@ vector<int> rotateArray(vector<int> arr, int k)
 
 /*
 LeetCode
-Problem : Rotate Array by k PLaces
+Problem : Right Rotate Array by k PLaces
 https://leetcode.com/problems/rotate-array/
 */
 
@@ -93,3 +93,45 @@ public:
         reverse(nums, k, n - 1);
     }
 };
+
+
+
+/*
+Dry Run:
+
+
+--> Right Rotate
+
+nums = [1, 2, 3, 4, 5, 6, 7], k = 3
+
+1. Reversing All elements
+reverse(nums, 0, n - 1);
+nums = [7, 6, 5, 4, 3, 2, 1]
+
+2. Reversing first k elements
+reverse(nums, 0, k - 1);
+nums = [5, 6, 7, 4, 3, 2, 1]
+
+3. Reversing all elements after k
+reverse(nums, k, n - 1);
+nums = [5, 6, 7, 1, 2, 3, 4]
+
+
+--> Left Rotate
+
+nums = [1, 2, 3, 4, 5, 6, 7], k = 2
+
+1. Reverse complete Array
+reverse(arr, 0, n - 1);
+nums = [7, 6, 5, 4, 3, 2, 1]
+
+2. Reverse first n - k elements
+n - k --> 7 - 2 = 5
+reverse(arr, 0, n - k - 1);
+nums = [3, 4, 5, 6, 7, 2, 1]
+
+3. Reverse last k elements
+reverse(arr, n - k, n - 1);
+nums = [3, 4, 5, 6, 7, 1, 2]
+
+*/
