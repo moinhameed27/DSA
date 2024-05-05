@@ -1,8 +1,9 @@
 /*
 Coding Ninjas
-Left Rotate an Array by One
+Problem : Left Rotate an Array by One
 https://www.codingninjas.com/codestudio/problems/left-rotate-an-array-by-one_5026278?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
 */
+
 #include <bits/stdc++.h>
 
 void reverse(vector<int> &nums, int i, int j)
@@ -28,7 +29,7 @@ vector<int> rotateArray(vector<int> &arr, int n)
 
 /*
 Coding Ninjas
-Left Rotate by D Places
+Problem : Left Rotate by D Places
 https://www.codingninjas.com/codestudio/problems/rotate-array_1230543?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
 */
 
@@ -57,10 +58,11 @@ vector<int> rotateArray(vector<int> arr, int k)
     return arr;
 }
 
-// -------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------
 
 /*
-Rotate Array by k PLaces
+LeetCode
+Problem : Rotate Array by k PLaces
 https://leetcode.com/problems/rotate-array/
 */
 
