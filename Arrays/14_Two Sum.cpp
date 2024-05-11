@@ -116,6 +116,7 @@ public:
     }
 };
 
+// We have to return the indices of the array so can't go with approach (Two Pointers + Sorting) as used above
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
