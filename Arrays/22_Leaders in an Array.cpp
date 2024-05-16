@@ -1,4 +1,4 @@
-// GFG :
+// GFG : https://bit.ly/3bZqbGc
 
 // Way - I (Brute Force)
 class Solution
