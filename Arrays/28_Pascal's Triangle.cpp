@@ -1,6 +1,6 @@
 // LeetCode (Variation 1) : https://leetcode.com/problems/pascals-triangle/
 // LeetCode (Variation 2) : https://leetcode.com/problems/pascals-triangle-ii/
-
+ 
 /* --> Way - I (Calculating All rows) */
 // Variation 1 : Given row number r and column number c. Print the element at position (r, c) in Pascal’s triangle.
 class Solution
