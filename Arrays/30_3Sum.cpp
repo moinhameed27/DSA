@@ -3,8 +3,8 @@
 // Way - I (Brute Force)
 class Solution
 {
-public:
-    vector<vector<int>> threeSum(vector<int> &nums)
+public: 
+    vector<vector<int>> threeSum(vector<int> &nums) 
     {
         int n = nums.size();
         // Set to store only unique triplets
