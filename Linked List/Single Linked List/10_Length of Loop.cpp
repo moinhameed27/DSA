@@ -59,3 +59,21 @@ int countNodesinLoop(struct Node *head)
     // If there's no cycle
     return 0;
 }
+
+/*
+-----------------------------------------------------------------------------------------------------------------
+Node = {3, 0, 2, 4}, 4 is connected to 0
+Two Pointers:
+1. Slow and Fast pointers, Fast moves two steps and Slow moves one step, If there is a cycle, they will meet at some point.
+2. Keep slow at the meeting point and move fast one step, count the number of nodes until they meet again
+
+slow = 3, head = 3
+slow = 0, fast = 2
+slow = 2, fast = 0
+slow = 4, fast = 4 (meet)
+* Length of Cycle (Keep slow at meeting point)
+slow = 4, fast = 4 --> count = 0
+slow = 4, fast = 0 --> count = 1
+slow = 4, fast = 2 --> count = 2
+slow = 4, fast = 4 --> count = 3 (meet again)
+*/
