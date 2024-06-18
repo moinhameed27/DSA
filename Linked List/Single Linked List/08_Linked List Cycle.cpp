@@ -51,3 +51,16 @@ public:
         return false;
     }
 };
+
+/*
+-----------------------------------------------------------------------------------------------------------------
+Node = {3, 0, 2, 4}, 4 is connected to 0
+Two Pointers:
+1. Slow and Fast pointers, Fast moves two steps and Slow moves one step, If there is a cycle, they will meet at some point.
+2. If fast reached nullptr, means there is no cycle
+
+slow = 3, head = 3
+slow = 0, fast = 2
+slow = 2, fast = 0
+slow = 4, fast = 4 (meet)
+*/
