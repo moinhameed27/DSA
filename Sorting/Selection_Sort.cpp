@@ -27,3 +27,8 @@ int main()
 
     return 0;
 }
+
+/*
+Time Complexity:
+Best Case = Worst Case = Average Case = O(n2) [n(n + 1) / 2]
+*/
