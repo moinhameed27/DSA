@@ -1,8 +1,8 @@
 // Statement 1 : Palindrome String
-// GFG :
+// GFG :https://www.geeksforgeeks.org/problems/palindrome-string0817/1
 
 // Statement 2 : Valid Palindrome
-// LeetCode :
+// LeetCode : https://leetcode.com/problems/valid-palindrome/
 
 // Statement 1
 // Way - I (Iterative)
