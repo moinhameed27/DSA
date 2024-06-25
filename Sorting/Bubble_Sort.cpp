@@ -1,4 +1,4 @@
-// Select the minimum and swap [Push minimum to the start]
+// Select the maximum and swap [Push maximum to the start]
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -16,7 +16,6 @@ void Bubble_Sort(vector<int> &v, int n)
         // If array is already sorted, break
         if (!didSwap)
             break;
-            cout << "Run" << endl;
     }
 }
 
