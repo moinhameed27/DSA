@@ -11,6 +11,32 @@
  * };
  */
 
+// Way - I (External Data Structure)
+class Solution
+{
+public:
+    ListNode *sortList(ListNode *head)
+    {
+        vector<int> v;
+        ListNode *mover = head;
+        while (mover)
+        {
+            v.push_back(mover->val);
+            mover = mover->next;
+        }
+        sort(v.begin(), v.end());
+        mover = head;
+        int i = 0;
+        while (mover)
+        {
+            mover->val = v[i++];
+            mover = mover->next;
+        }
+        return head;
+    }
+};
+
+// Way - II (Merge Sort)
 class Solution
 {
     /*
