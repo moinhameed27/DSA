@@ -47,7 +47,7 @@ public:
         for (int num = n2 - 1; num >= 0; num--)
         {
             // Keep Checking until there's greater element found
-            while (!st.empty() && st.top() < nums2[num])
+            while (!st.empty() && st.top() <= nums2[num])
                 st.pop();
             // If stack is empty, it means there's no element greater to the current one
             if (st.empty())
