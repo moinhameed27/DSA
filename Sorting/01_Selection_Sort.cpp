@@ -8,7 +8,7 @@ void Selection_Sort(vector<int> &v, int n)
     for (int i = 0; i < n - 1; i++)
     {
         int mini = i;
-        for (int j = i; j < n; j++)
+        for (int j = i + 1; j < n; j++)
         {
             if (v[j] < v[mini])
                 mini = j;
