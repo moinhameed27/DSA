@@ -1,4 +1,4 @@
-// Select the maximum and swap [Push maximum to the start by adjacent swaps]
+// Select the maximum and swap [Push maximum to the end by adjacent swaps]
 #include <iostream>
 #include <vector>
 using namespace std;
