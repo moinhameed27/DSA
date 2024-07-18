@@ -1,4 +1,4 @@
-// GFG :
+// GFG : https://bit.ly/3PvAOhK
 
 // Way - I (Sorting)
 class Solution
