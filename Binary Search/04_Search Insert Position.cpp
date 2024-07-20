@@ -5,18 +5,18 @@ class Solution
 public:
     int searchInsert(vector<int> &nums, int target)
     {
-        int start = 0;
-        int end = nums.size() - 1;
-        while (start <= end)
+        int left = 0;
+        int right = nums.size() - 1;
+        while (left <= right)
         {
-            int mid = start + (end - start) / 2;
+            int mid = left + (right - left) / 2;
             if (nums[mid] < target)
-                start = mid + 1;
+                left = mid + 1;
             else if (nums[mid] > target)
-                end = mid - 1;
+                right = mid - 1;
             else
                 return mid;
         }
-        return start;
+        return left;
     }
 };
