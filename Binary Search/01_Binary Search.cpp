@@ -6,14 +6,14 @@ public:
     int search(vector<int> &nums, int target)
     {
         int n = nums.size();
-        int left = 0, right = n - 1;
-        while (left <= right)
+        int start = 0, end = n - 1;
+        while (start <= end)
         {
-            int mid = left + (right - left) / 2;
+            int mid = start + (end - start) / 2;
             if (nums[mid] > target)
-                right = mid - 1;
+                end = mid - 1;
             else if (nums[mid] < target)
-                left = mid + 1;
+                start = mid + 1;
             else
                 return mid;
         }
